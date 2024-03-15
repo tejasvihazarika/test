@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+}
+.container{
+    background-image: url(mon.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin-top: -0.67%;
+}
+header{
+    margin: 10px;
+    padding: 0;
+}
+.box2{
+    display: flex;
+}
+.box3{
+    display: flex;
+    letter-spacing: 1px;
+    justify-content: space-between;
+    width: 900px;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 1%;
+    margin-top: 1.9%;
+}
+#a1{
+    text-decoration: none;
+    margin-right: 10%;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: gray;
+
+}
+a:link{
+    color: white;
+}
+#h11{
+    font-weight: bold;
+    font-size: 70px;
+    color: antiquewhite;
+    margin-left: 15%;
+    margin-top: 11%;
+}
+#h12{
+    font-weight: lighter;
+    font-family: 30px;
+    color: antiquewhite;
+    letter-spacing: 2px;
+    margin-left: 25%;
+    margin-top: -1%;
+}
+.box31{
+    display:flex;
+    justify-content: space-between;
+
+    width: 590px;
+    margin-left: 32%;
+    margin-top: 18%;
+}
+#i1{
+    transition: transform 0.3s ease; /* Define the transition */
+}
+
+#i1:hover {
+    transform: scale(1.5); /* Scale the link on hover */
+}
+#i2{
+    transition: transform 0.3s ease; /* Define the transition */
+}
+
+#i2:hover {
+    transform: scale(1.5); /* Scale the link on hover */
+}
+#i3{
+    transition: transform 0.3s ease; /* Define the transition */
+}
+
+#i3:hover {
+    transform: scale(1.5); /* Scale the link on hover */
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-left: 3%;
+}
+
+.search-box input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    outline: none;
+    background-color: transparent; /* Translucent white background */
+}
+
+.search-box button[type="submit"] {
+    padding: 10px 20px;
+    background-color: transparent; /* Translucent blue background */
+    color: #fff;
+    border: none;
+    border-radius: 1px 5px 5px 0;
+    border-color: black;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-box button[type="submit"]:hover {
+    background-color: rgba(255, 255, 255, 0.8); 
+    color: black;/* Fully opaque blue background on hover */
+}
+#t1{
+    margin-left: 46%;
+    margin-top: 4%;
+}
+.t11{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 20px auto; 
+}
